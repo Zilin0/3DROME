@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d065fa910a8821a4ea8a8b51e3d3930e, type: 3}
+  m_Name: New Talk
+  m_EditorClassIdentifier: 
+  dialoguePiece:
+  - ID: piece1
+    image: {fileID: 0}
+    text: Hey, unseen boy, where are you from?
+    quest: {fileID: 0}
+    options:
+    - text: I don't know.
+      targetID: 
+      takequest: 0
+    - text: I...
+      targetID: 0
+      takequest: 0
+  - ID: piece2
+    image: {fileID: 0}
+    text: This is Vindoland.It looks like you've come from a place you can't get
+      to now
+    quest: {fileID: 0}
+    options:
+    - text: How do you know that
+      targetID: 
+      takequest: 0
+  - ID: piece3
+    image: {fileID: 0}
+    text: canypou
+    quest: {fileID: 0}
+    options:
+    - text: yyy
+      targetID: 
+      takequest: 1
+    - text: nnn
+      targetID: 
+      takequest: 0
